@@ -1,0 +1,120 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  width: 80vw;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: 0;
+  background-image: url(../img/bg-img.png);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  padding-bottom: 5vw;
+}
+
+/* Container styles */
+.container {
+  color: black; /* Default text color */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.container2 {
+  color: rgb(255, 255, 255); /* White text color */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+/* Login and signup section styles */
+#login-section,
+#signup-section {
+  background-color: #e8dfc597;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#login-section p,
+#signup-section p {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Form label and input styles */
+#login-form label,
+#signup-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Form input styles */
+#login-form input[type="text"],
+#login-form input[type="password"],
+#signup-form input[type="text"],
+#signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Form submit button styles */
+#login-form input[type="submit"],
+#signup-form input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#login-form input[type="submit"]:hover,
+#signup-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#login-form p,
+#signup-form p {
+  margin-top: 15px;
+}
+
+#login-form a,
+#signup-form a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Logout Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px;
+}
